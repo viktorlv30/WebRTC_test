@@ -2,9 +2,10 @@
   "name": "webrtc_test",
   "version": "1.0.0",
   "description": "",
-  "main": "./dist-ts/webrtc.js",
+  "main": "./dist-client/webrtc.js",
   "scripts": {
-    "ts-watcher": "tsc -w -p src-ts/tsconfig.json",
+    "ts-client-w": "webpack-dev-server",
+    "ts-server-w": "tsc -w -p server-ts/tsconfig.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "v.litvak",
@@ -12,6 +13,8 @@
   "devDependencies": {
     "@types/node": "^8.5.1",
     "@types/webrtc": "0.0.22",
+    "ts-loader": "^3.2.0",
     "typescript": "^2.6.2"
-  }
+  },
+  "dependencies": {}
 }

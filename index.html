@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <!--<script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>-->
-        <script src="dist-ts/webrtc.js"></script>
-    </head>
 
-    <body>
-        <video id="localVideo" autoplay muted style="width:40%;"></video>
-        <video id="remoteVideo" autoplay style="width:40%;"></video>
+<head>
+    <!--<script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>-->
+</head>
 
-        <br />
+<body>
+    <video id="localVideo" autoplay muted style="width:40%;"></video>
+    <video id="remoteVideo" autoplay style="width:40%;"></video>
 
-        <input type="button" id="start" onclick="start(true)" value="Start Video"></input>
+    <br />
 
-        <script type="text/javascript">
-            pageReady();
-        </script>
-    </body>
+    <input type="button" id="start" onclick="start(true)" value="Start/Stop Video"></input>
+
+</body>
+<script src="./dist-client/webrtc.js"></script>
+
 </html>

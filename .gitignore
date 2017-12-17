@@ -1,6 +1,4 @@
 node_modules/*
-dist-ts/*
+dist-client/*
 
 package-lock.json
-
-
