@@ -1,0 +1,17 @@
+{
+  "name": "webrtc_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist-ts/webrtc.js",
+  "scripts": {
+    "ts-watcher": "tsc -w -p src-ts/tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "v.litvak",
+  "license": "GPL",
+  "devDependencies": {
+    "@types/node": "^8.5.1",
+    "@types/webrtc": "0.0.22",
+    "typescript": "^2.6.2"
+  }
+}
